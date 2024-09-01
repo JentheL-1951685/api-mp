@@ -13,7 +13,7 @@ app = FastAPI()
 
 # Define the origins that should be allowed to make CORS requests
 origins = [
-    "https://main--masterproef-jenthe-lowist.netlify.app",
+    "https://masterproef-jenthe-lowist.netlify.app/fleets",
 ]
 
 app.add_middleware(
